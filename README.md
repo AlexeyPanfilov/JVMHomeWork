@@ -10,6 +10,7 @@
 - области памяти (стэк (и его фреймы), heap)  
 - сборщик мусора
 
+```java
 public class JvmComprehension {
 
     public static void main(String[] args) { // В стек помещается сигнатура метода main прежде всего
@@ -34,3 +35,4 @@ public class JvmComprehension {
                                                     // а также значение примитива i
     }
 }
+```
